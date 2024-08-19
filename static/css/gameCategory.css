@@ -1,0 +1,1101 @@
+.shadow {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding-bottom: 60px
+}
+
+@keyframes pwa-dialog-show {
+    from {
+        left: -360px
+    }
+
+    to {
+        left: 24px
+    }
+}
+
+@keyframes pwa-dialog-hide {
+    from {
+        left: 24px
+    }
+
+    to {
+        left: -360px
+    }
+}
+
+body,
+button,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+    z-index: -10000;
+    min-width: 1043px;
+    background: #f2f5f9
+}
+
+button {
+    border-radius: 0
+}
+
+a {
+    color: #00a6ed;
+    text-decoration: none
+}
+
+a:hover {
+    color: #00b6ff
+}
+
+li {
+    list-style: none
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    color: #ccc
+}
+
+button {
+    outline: 0
+}
+
+.clear {
+    clear: both;
+    overflow: hidden
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.head {
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto
+}
+
+.banner {
+    background: url(/static/images/bannerbg1.jpg) center no-repeat;
+    width: auto;
+    height: 495px
+}
+
+.top-search {
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    height: 50px;
+    padding: 0 10px;
+    padding-top: 17px
+}
+
+@keyframes bgShakeTop {
+
+    from,
+    to {
+        background-position: center 3px
+    }
+
+    25% {
+        background-position: 5.5px center
+    }
+
+    50% {
+        background-position: center 6px
+    }
+
+    75% {
+        background-position: 2.5px center
+    }
+}
+
+.box {
+    background: #fff;
+    width: auto;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+    margin-bottom: 20px
+}
+
+.box .title {
+    background: #fbfbfb;
+    border-bottom: 1px solid #e8e8e8;
+    height: 55px;
+    line-height: 55px;
+    color: #666;
+    font-size: 18px;
+    padding: 0 10px;
+    font-weight: 400;
+    position: relative
+}
+
+.box .title h1 {
+    font-size: 18px;
+    font-weight: 400;
+    float: left
+}
+
+.box .title a {
+    color: #666;
+    text-decoration: none
+}
+
+.box .title a:hover {
+    color: #00a6ed
+}
+
+.box .title .more {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 15px;
+    height: 20px;
+    line-height: 20px;
+    text-align: right
+}
+
+.box .title .more a {
+    color: #666;
+    font-size: 14px
+}
+
+.box .title .more a:hover {
+    color: #00a6ed
+}
+
+.top-list {
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.top-list li {
+    width: 25%;
+    float: left;
+    position: relative
+}
+
+.top-list li.w33 {
+    width: 33.33% !important
+}
+
+.top-list li.w5 {
+    width: 50% !important
+}
+
+.top-list li .item-sort {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.top-list li .item-sort .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 36px solid #828588;
+    border-right: 36px solid transparent;
+    opacity: .85
+}
+
+.top-list li .item-sort .text {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    font-style: italic
+}
+
+.top-list li:hover {
+    background: #f5f7fa
+}
+
+.top-list li:hover a {
+    color: #00a6ed
+}
+
+.top-list-s li a {
+    display: block
+}
+
+.stars {
+    background: url(/static/images/stars_fill.svg) repeat-x;
+    height: 15px;
+    width: 75px;
+    clear: both;
+    direction: ltr;
+    position: relative
+}
+
+.stars span.score {
+    display: block;
+    background: url(/static/images/stars.svg) repeat-x;
+    height: 15px;
+    width: 75px
+}
+
+.stars-box>i {
+    background: url(/static/images/stars.svg) no-repeat left center;
+    display: inline-block;
+    height: 12px;
+    background-size: 12px;
+    width: 12px;
+    top: 1px;
+    position: relative
+}
+
+.stars-box>i.n-stars {
+    background-image: url(/static/images/stars_fill.svg)
+}
+
+.share-hide {
+    display: none
+}
+
+.share-counter {
+    line-height: 32px;
+    font-size: 11.4px;
+    cursor: pointer;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: auto;
+    margin: 0 5px;
+    padding: 0 6px;
+    left: -1px;
+    background: #ebebeb;
+    color: #32363b;
+    transition: all .2s ease
+}
+
+.share-counter:after {
+    top: 30%;
+    left: -4px;
+    content: "";
+    position: absolute;
+    border-width: 5px 8px 5px 0;
+    border-style: solid;
+    border-color: transparent #ebebeb transparent transparent;
+    display: block;
+    width: 0;
+    height: 0
+}
+
+.share-side-counter {
+    display: inline-block;
+    width: 48px;
+    text-align: center;
+    overflow-wrap: break-word
+}
+
+.share-side-text {
+    font-size: 9px;
+    line-height: 1.25em;
+    color: #222;
+    letter-spacing: 1px
+}
+
+.share-shortcut .icon {
+    background-color: #24cd77;
+    background-image: url(/static/images/shortcut.svg)
+}
+
+.shadow {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding-bottom: 60px
+}
+
+body {
+    padding-top: 70px
+}
+
+.no-scrollbar-x::-webkit-scrollbar {
+    display: none
+}
+
+.stars {
+    display: inline-block;
+    line-height: 0;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url(/static/images/svg_icon.svg) no-repeat;
+    background-size: 160px;
+    background-position: 0 -288px
+}
+
+.stars+span {
+    vertical-align: middle
+}
+
+.no-stars .stars {
+    background-position-x: -16px
+}
+
+.category-apk-list-box {
+    padding: 8px 0 12px;
+    background-color: #fff;
+    margin-bottom: 4px
+}
+
+.category-apk-list-box .show-more {
+    display: block;
+    background: #24cd77;
+    border-radius: 4px;
+    width: calc(100% - 32px);
+    margin: 16px auto 0;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    color: #fff
+}
+
+.category-apk-list-box .show-more:hover {
+    background: #24dc83
+}
+
+.category-module .category-module-title {
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.category-module .category-module-title .title-text {
+    padding: 4px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3c4043;
+    flex: 1
+}
+
+.category-module .category-module-title .more {
+    display: flex;
+    justify-content: space-between
+}
+
+.category-module .category-module-title .more::after {
+    content: "";
+    position: static;
+    display: inline-block;
+    align-self: center;
+    width: 6px;
+    height: 6px;
+    border: 1.5px solid #8b8b8b;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    flex-shrink: 0;
+    margin-left: 8px
+}
+
+.is-tab .category-module-title {
+    align-items: normal;
+    flex-direction: column;
+    border-bottom: 1px solid #f0f2f4;
+    margin-bottom: 16px
+}
+
+.is-tab .category-module-title .tab-list {
+    display: flex;
+    margin-top: 10px;
+    align-items: center
+}
+
+.is-tab .category-module-title .tab-list>span {
+    flex: 1;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #4b4b4b;
+    padding: 4px 0 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative
+}
+
+.is-tab .category-module-title .tab-list>span::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: transparent
+}
+
+.is-tab .category-module-title .tab-list>span.active,
+.is-tab .category-module-title .tab-list>span:hover {
+    color: #24cd77;
+    font-weight: 500
+}
+
+.is-tab .category-module-title .tab-list>span.active::before,
+.is-tab .category-module-title .tab-list>span:hover::before {
+    background-color: #24cd77
+}
+
+.is-tab .category-module-title .tab-list>span::after {
+    display: block;
+    content: attr(title);
+    font-weight: 500;
+    visibility: hidden;
+    height: 1px;
+    color: transparent;
+    margin-bottom: -1px;
+    overflow: hidden
+}
+
+.is-tab .tab-items>* {
+    display: none;
+    margin-top: 10px !important
+}
+
+.is-tab .tab-items>:nth-child(1) {
+    display: block
+}
+
+.category-apk-list-box .show-more {
+    width: 33.33%
+}
+
+.category-module .category-module-title .title-text {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px
+}
+
+.is-tab .category-module-title {
+    align-items: center;
+    flex-direction: inherit
+}
+
+.is-tab .category-module-title .tab-list {
+    margin-top: 0
+}
+
+.is-tab .category-module-title .tab-list>span {
+    margin-left: 24px;
+    line-height: 24px
+}
+
+.category-module .category-module-title .title-text {
+    font-size: 20px;
+    line-height: 28px
+}
+
+.category-module .category-module-title .more {
+    justify-content: normal
+}
+
+.is-tab .category-module-title .tab-list>span {
+    line-height: 28px
+}
+
+.category-apk-list-box .show-more {
+    width: 33.33%;
+    width: calc((100% - 56px)/ 3)
+}
+
+.category-apk-swiper {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #fff;
+    margin-bottom: 4px
+}
+
+.category-apk-swiper .swiper-list {
+    white-space: nowrap;
+    overflow-x: auto;
+    font-size: 0;
+    line-height: 1;
+    padding: 0 16px
+}
+
+.category-apk-swiper .swiper-list .swiper-item {
+    background: #f8f9fa;
+    display: inline-block;
+    position: relative;
+    width: 328px;
+    overflow: hidden;
+    border-radius: 8px
+}
+
+.category-apk-swiper .swiper-list .swiper-item+.swiper-item {
+    margin-left: 8px
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-banner {
+    padding-bottom: 56.75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-banner-bg,
+.category-apk-swiper .swiper-list .swiper-item::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 33.33%
+}
+
+.category-apk-swiper .swiper-list .swiper-item::after {
+    content: "";
+    z-index: 3;
+    background: linear-gradient(rgba(0, 0, 0, .01), rgba(0, 0, 0, .8))
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-banner-bg {
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 4;
+    filter: blur(30px)
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info {
+    position: absolute;
+    width: 100%;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    z-index: 4
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info span {
+    vertical-align: middle;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info .swiper-item-info-title {
+    display: inline-block;
+    width: calc(100% - 50px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info .swiper-item-info-score {
+    float: right
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info .swiper-item-info-score .stars {
+    background-position-x: -32px
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info .swiper-item-button {
+    padding: 5px 8px;
+    background: #24cd77;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info .swiper-item-button img {
+    vertical-align: text-bottom
+}
+
+.category-apk-swiper .swiper-list .swiper-item .swiper-item-info .swiper-item-button:hover {
+    background: #24dc83
+}
+
+.category-apk-swiper .screen-btn {
+    display: none
+}
+
+.category-apk-swiper {
+    position: relative;
+    padding-top: 16px
+}
+
+.category-apk-swiper::after,
+.category-apk-swiper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 5
+}
+
+.category-apk-swiper::after {
+    left: auto;
+    right: 0
+}
+
+.category-apk-swiper .swiper-list .swiper-item {
+    width: calc((100% - 16px)/ 3)
+}
+
+.category-apk-swiper .screen-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 6;
+    margin-top: -16px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12);
+    border: 0 none;
+    outline: 0;
+    cursor: pointer
+}
+
+.category-apk-swiper .screen-btn::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    align-self: center;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #868686;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    flex-shrink: 0;
+    right: 16px;
+    top: 14px
+}
+
+.category-apk-swiper .screen-btn.go {
+    display: block
+}
+
+.category-apk-swiper .screen-btn.prev {
+    left: 0
+}
+
+.category-apk-swiper .screen-btn.prev::before {
+    transform: rotate(-45deg);
+    right: 12px;
+    top: 14px
+}
+
+.category-apk-swiper .screen-btn.next {
+    right: 0
+}
+
+.category-apk-swiper.show-button .swiper-list .swiper-item .swiper-item-info .text-info {
+    display: flex;
+    justify-content: space-between
+}
+
+.category-apk-swiper.show-button .swiper-list .swiper-item .swiper-item-info .text-info .swiper-item-info-link {
+    width: 0;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    margin-top: 2px
+}
+
+.category-apk-swiper.show-button .swiper-list .swiper-item .swiper-item-info .text-info .swiper-item-button {
+    flex-grow: 0;
+    align-self: baseline
+}
+
+.category-apk-swiper.show-button .swiper-list .swiper-item .swiper-item-info .swiper-item-info-title {
+    width: 100%
+}
+
+.apk-grid-item {
+    margin-top: 10px;
+    position: relative
+}
+
+.apk-grid-item ul {
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 0;
+    padding: 0 16px
+}
+
+.apk-grid-item .grid-col {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 2px)
+}
+
+.apk-grid-item .grid-col+.grid-col {
+    margin-left: 12px
+}
+
+.apk-grid-item .grid-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.apk-grid-item .grid-row:hover .grid-text-box .grid-item-title {
+    color: #00a6ed
+}
+
+.apk-grid-item .grid-row+.grid-row {
+    margin-top: 16px
+}
+
+.apk-grid-item .grid-row img.icon {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #eff3f9;
+    border-radius: 15%;
+    background-color: #fff
+}
+
+.apk-grid-item .grid-row .grid-text-box {
+    width: 0;
+    flex: 1;
+    margin: 0 12px
+}
+
+.apk-grid-item .grid-row .grid-text-box .grid-item-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4b4b4b;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block
+}
+
+.apk-grid-item .grid-row .grid-text-box .grid-item-developer {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5e5e5e;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 4px 0;
+    display: block
+}
+
+.apk-grid-item .grid-row .grid-text-box .grid-item-score {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fa8b16;
+    margin-left: -2px
+}
+
+.apk-grid-item .grid-row .apk-grid-button,
+.apk-grid-item .grid-row .apk-grid-download {
+    padding: 6px 8px;
+    background: #24cd77;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff
+}
+
+.apk-grid-item .grid-row .apk-grid-button:hover,
+.apk-grid-item .grid-row .apk-grid-download:hover {
+    background: #24dc83
+}
+
+.apk-grid-item.no-grid+.no-grid {
+    margin-top: 16px
+}
+
+.apk-grid-item.no-grid ul {
+    white-space: normal
+}
+
+.apk-grid-item.no-grid .grid-col {
+    margin-left: 0;
+    margin-top: 16px
+}
+
+.apk-grid-item.no-grid .grid-col:nth-child(1) {
+    margin-top: 0
+}
+
+.apk-grid-item .grid-col {
+    width: calc((100% - 24px)/ 3)
+}
+
+.apk-grid-item .apk-grid-button,
+.apk-grid-item .grid-row .apk-grid-download {
+    display: none
+}
+
+.apk-grid-item::after,
+.apk-grid-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 100%;
+    background-color: #fff
+}
+
+.apk-grid-item::after {
+    left: auto;
+    right: 0
+}
+
+.apk-grid-item.no-grid .grid-col {
+    width: calc((100% - 24px)/ 3);
+    margin-left: 12px
+}
+
+.apk-grid-item.no-grid .grid-col:nth-child(3n+1) {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.apk-grid-item.no-grid .grid-col:nth-child(2),
+.apk-grid-item.no-grid .grid-col:nth-child(3) {
+    margin-top: 0
+}
+
+.apk-list-column-three ul {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 224px;
+    overflow-x: auto
+}
+
+.apk-list-column-three ul::after {
+    content: "";
+    height: 100%;
+    width: 16px
+}
+
+.apk-list-column-three ul {
+    height: 144px
+}
+
+.apk-list-column-three ul li {
+    width: 100%;
+    width: calc(100% - 18px);
+    margin-right: 12px
+}
+
+.apk-list-column-three ul li:nth-last-child(1):nth-child(3n+1),
+.apk-list-column-three ul li:nth-last-child(1):nth-child(3n+2),
+.apk-list-column-three ul li:nth-last-child(1):nth-child(3n+3),
+.apk-list-column-three ul li:nth-last-child(2):nth-child(3n+1),
+.apk-list-column-three ul li:nth-last-child(2):nth-child(3n+2),
+.apk-list-column-three ul li:nth-last-child(3):nth-child(3n+1) {
+    margin-right: 0
+}
+
+.apk-list-column-three ul li {
+    width: 33.3%;
+    margin-right: 0
+}
+
+.apk-list-column-three .apk-item .apk {
+    display: flex;
+    align-items: center
+}
+
+.apk-list-column-three .apk-item .apk .icon {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #eff3f9;
+    border-radius: 10px
+}
+
+.apk-list-column-three .apk-item .apk .apk-text-box {
+    flex-grow: 1;
+    width: 0;
+    margin: 0 12px
+}
+
+.apk-list-column-three .apk-item .apk:hover .apk-title {
+    color: #00a6ed
+}
+
+.apk-list-column-three .apk-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4b4b4b;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block
+}
+
+.apk-list-column-three .apk-developer {
+    font-size: 12px;
+    line-height: 16px;
+    color: #5e5e5e;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 4px 0;
+    display: block
+}
+
+.apk-list-column-three .apk-score {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fa8b16;
+    margin-left: -2px
+}
+
+.apk-list-column-three .apk-button {
+    padding: 6px 8px;
+    background: #24cd77;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff
+}
+
+.apk-list-column-three .apk-button:hover {
+    background: #24dc83
+}
+
+.apk-list-column-three .apk-button {
+    display: none
+}
+
+.crumbs {
+    padding: 4px 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5e5e5e
+}
+
+.crumbs .arrow {
+    border: 1px solid #a6a6a6;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(135deg);
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-bottom: 1px
+}
+
+.crumbs a {
+    color: #5e5e5e
+}
+
+.crumbs a:hover {
+    color: #24cd77
+}
+
+html[dir=rtl] .crumbs {
+    margin-right: 16px
+}
+
+html[dir=rtl] .crumbs .arrow {
+    transform: rotate(-45deg);
+    margin-left: 5px;
+    margin-right: 3px
+}
+
+body {
+    padding-top: 45px
+}
+
+.category {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 4px
+}
+
+body {
+    background-color: #fff
+}
+
+.category {
+    margin-top: 26px
+}
+
+.crumbs {
+    margin-bottom: 4px;
+    margin-left: 16px
+}
+
+.hot-apks .title-text {
+    margin-bottom: 6px
+}
+
+h1 {
+    display: inline;
+    font-weight: 500;
+    font-size: 16px
+}
+
+h1 {
+    font-size: 20px
+}

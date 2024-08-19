@@ -1,0 +1,1313 @@
+:root {
+    --module-spacing: 8px;
+    --app-horizontal-spacing: 16px
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #24cd77;
+    z-index: 999999;
+    top: 0
+}
+
+#header .search_btn {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background: 0 0;
+    color: #24cd77;
+    opacity: .8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    right: 0;
+    left: auto
+}
+
+.shadow {
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding-bottom: 60px
+}
+
+#header {
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fff
+}
+
+#header .search_btn {
+    display: none
+}
+
+.footer_new {
+    background-color: #fff;
+    overflow: initial;
+    width: 100% !important
+}
+
+.footer_new .footer_container {
+    padding: 0 16px;
+    margin: 0 auto
+}
+
+.footer_container>.info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.footer_container .info .item {
+    padding: 12px 0
+}
+
+.footer_container .info .item .title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #777
+}
+
+.footer_container .info .item ul li {
+    margin-top: 8px
+}
+
+.footer_container .info .item ul li a {
+    color: #8b8b8b;
+    font-size: 13px;
+    line-height: 22px
+}
+
+.footer_container .info .item:last-child ul li:last-child {
+    margin-bottom: 0
+}
+
+.footer_new {
+    padding-top: 24px;
+    border-top: 1px solid #e7e7e7
+}
+
+.footer_new .footer_container {
+    width: 90%
+}
+
+.footer_container>.info {
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+    -webkit-flex-direction: inherit;
+    -moz-box-orient: inherit;
+    -moz-box-direction: inherit;
+    -ms-flex-direction: inherit;
+    flex-direction: inherit
+}
+
+html {
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+a {
+    background-color: transparent
+}
+
+img {
+    border-style: none
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+i.icon {
+    display: inline-block;
+    vertical-align: bottom
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none
+}
+
+.one-line {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.double-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+:root {
+    --module-spacing: 4px;
+    --app-horizontal-spacing: 8px;
+    --app-vertical-spacing: 12px;
+    --html-direction: 1;
+    --html-rtl: 0;
+    --html-ltr: 1
+}
+
+:root {
+    --module-spacing: 8px;
+    --app-horizontal-spacing: 16px
+}
+
+:root {
+    --text-bold: 500
+}
+
+body,
+li,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+button,
+input {
+    outline: 0
+}
+
+html {
+    font-size: 62.5%
+}
+
+img {
+    vertical-align: middle
+}
+
+li {
+    list-style: none
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+a:hover {
+    color: #00a6ed
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f2f5f9;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #5e5e5e
+}
+
+body {
+    padding-top: 70px
+}
+
+.main-body {
+    margin: auto;
+    padding: 4px 0;
+    width: 1200px
+}
+
+.main-body .module {
+    margin-bottom: var(--module-spacing);
+    padding-bottom: 12px;
+    background-color: #fff
+}
+
+.main-body .module .title {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.main-body .module .title {
+    justify-content: flex-start
+}
+
+.main-body .module .title .name {
+    margin: 0;
+    flex-shrink: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4b4b4b
+}
+
+.main-body .module .title.more::after {
+    content: " ";
+    display: inline-block;
+    align-self: center;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #8b8b8b;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    flex-shrink: 0;
+    right: 16px;
+    margin-left: 12px
+}
+
+.clear {
+    clear: both
+}
+
+.main-body {
+    padding: 16px 0
+}
+
+#header h1 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.main-body {
+    padding-top: 4px
+}
+
+.main-body .module {
+    padding-bottom: 0
+}
+
+.main-body .module .title {
+    padding: 10px 16px 12px 16px
+}
+
+.main-body {
+    padding-top: 16px;
+    padding-bottom: 8px
+}
+
+.main-body .left {
+    float: left;
+    width: 868px
+}
+
+.main-body .right {
+    float: right;
+    width: 316px;
+    clear: right
+}
+
+.slide-banner {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding-top: 47.22222%
+}
+
+.slide-banner>.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.slide-banner .container {
+    direction: ltr;
+    height: 100%
+}
+
+.slide-banner .container .tempWrap {
+    height: 100%
+}
+
+.slide-banner .container .list {
+    height: 100%
+}
+
+.slide-banner .banner-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block !important
+}
+
+.slide-banner .banner-bg {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+
+.slide-banner .mask {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.29%, rgba(0, 0, 0, .6) 92.71%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.slide-banner .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 14px 16px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    cursor: pointer
+}
+
+.slide-banner .icon {
+    border-radius: 15%;
+    width: 32px;
+    height: 32px
+}
+
+.slide-banner .name {
+    margin: 0 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 0;
+    flex: 1
+}
+
+.slide-banner .button {
+    padding: 6px 8px;
+    background: #24cd77;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 12px
+}
+
+.slide-banner .dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    line-height: 4px;
+    text-align: center;
+    background-color: transparent
+}
+
+.slide-banner .dots li {
+    color: transparent;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 1.5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .7);
+    cursor: pointer
+}
+
+.slide-banner .dots li.on {
+    background-color: #fff
+}
+
+.slide-banner .next,
+.slide-banner .prev {
+    width: 36px;
+    height: 36px;
+    margin: 0 16px;
+    background-image: url(/static/images/icon-slide-banner-prev.svg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: .8
+}
+
+.slide-banner .next:hover,
+.slide-banner .prev:hover {
+    opacity: 1
+}
+
+.slide-banner .next {
+    left: auto;
+    right: 0;
+    transform-origin: center;
+    transform: translateY(-50%) rotateZ(180deg)
+}
+
+.slide-banner {
+    margin-bottom: 8px;
+    position: relative;
+    padding-top: 47.81106%
+}
+
+.slide-banner>.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.search-box {
+    width: 316px;
+    padding: 12px 16px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    box-sizing: border-box
+}
+
+.search-box form {
+    width: 100%;
+    padding: 2px;
+    background-color: #24cd77;
+    border-radius: 5px
+}
+
+.search-box form .text-box {
+    width: calc(100% - 56px);
+    display: inline-block;
+    vertical-align: bottom
+}
+
+.search-box form .text-box input {
+    display: inline-block;
+    width: 100%;
+    height: 34px;
+    border-start-start-radius: 3px;
+    border-end-start-radius: 3px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: none
+}
+
+.search-box form .text-btn,
+.search-box form .text-btn input {
+    cursor: pointer;
+    display: inline-block;
+    width: 56px;
+    height: 34px;
+    vertical-align: bottom;
+    border: none;
+    background: url(/static/images/icon-search-white.svg) no-repeat center/24px
+}
+
+.search-box .trending-title {
+    font-size: 12px;
+    line-height: 16px;
+    color: #5e5e5e;
+    margin-top: 12px
+}
+
+.search-box .trending-content {
+    width: 100%;
+    margin-top: 14px;
+    height: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    column-gap: 8px;
+    row-gap: 12px;
+    align-content: start
+}
+
+.search-box .trending-content .hot {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777;
+    background: #f2f5f9;
+    cursor: pointer
+}
+
+.search-box .trending-content .hot:hover {
+    background-color: #24cd77;
+    color: #fff
+}
+
+.apk-list-1001 {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 16px
+}
+
+.apk-list-1001 a {
+    display: inline-block
+}
+
+.apk-list-1001 a:first-child {
+    margin-left: 16px
+}
+
+.apk-list-1001 .img-ratio {
+    position: relative;
+    padding-top: 100%
+}
+
+.apk-list-1001 .img-ratio>.icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.apk-list-1001 .icon {
+    border: 1px solid #eff3f9;
+    border-radius: 15%
+}
+
+.apk-list-1001 .name {
+    margin-top: 4px;
+    line-height: 20px;
+    color: #5e5e5e;
+    height: 40px;
+    white-space: initial
+}
+
+.apk-list-1001 a {
+    width: calc((100% - 144px)/ 8);
+    margin-left: 12px;
+    vertical-align: bottom;
+    min-width: auto
+}
+
+.apk-list-1002 {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 16px
+}
+
+.apk-list-1002 a {
+    display: inline-block;
+    white-space: initial
+}
+
+.apk-list-1002 a:last-child {
+    margin-right: 16px
+}
+
+.apk-list-1002 a:first-child .img-ratio {
+    position: relative
+}
+
+.apk-list-1002 a:first-child .img-ratio::after,
+.apk-list-1002 a:first-child .img-ratio::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    left: calc((-1 * var(--html-direction) + 1) * (100% - 14px - 24px)/ 2 + 12px)
+}
+
+.apk-list-1002 a:first-child .img-ratio::before {
+    content: " ";
+    border-left: 7px solid #f3251b;
+    border-right: 7px solid #f3251b;
+    border-top: 14px solid #f3251b;
+    border-bottom: 4px solid transparent;
+    z-index: 1
+}
+
+.apk-list-1002 a:first-child .img-ratio::after {
+    content: "1";
+    width: 14px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    color: #fff;
+    z-index: 1
+}
+
+.apk-list-1002 a:nth-child(2) .img-ratio {
+    position: relative
+}
+
+.apk-list-1002 a:nth-child(2) .img-ratio::after,
+.apk-list-1002 a:nth-child(2) .img-ratio::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    left: calc((-1 * var(--html-direction) + 1) * (100% - 14px - 24px)/ 2 + 12px)
+}
+
+.apk-list-1002 a:nth-child(2) .img-ratio::before {
+    content: " ";
+    border-left: 7px solid #f77e13;
+    border-right: 7px solid #f77e13;
+    border-top: 14px solid #f77e13;
+    border-bottom: 4px solid transparent;
+    z-index: 1
+}
+
+.apk-list-1002 a:nth-child(2) .img-ratio::after {
+    content: "2";
+    width: 14px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    color: #fff;
+    z-index: 1
+}
+
+.apk-list-1002 a:nth-child(3) .img-ratio {
+    position: relative
+}
+
+.apk-list-1002 a:nth-child(3) .img-ratio::after,
+.apk-list-1002 a:nth-child(3) .img-ratio::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    left: calc((-1 * var(--html-direction) + 1) * (100% - 14px - 24px)/ 2 + 12px)
+}
+
+.apk-list-1002 a:nth-child(3) .img-ratio::before {
+    content: " ";
+    border-left: 7px solid #efab19;
+    border-right: 7px solid #efab19;
+    border-top: 14px solid #efab19;
+    border-bottom: 4px solid transparent;
+    z-index: 1
+}
+
+.apk-list-1002 a:nth-child(3) .img-ratio::after {
+    content: "3";
+    width: 14px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    color: #fff;
+    z-index: 1
+}
+
+.apk-list-1002 .img-ratio {
+    position: relative;
+    padding-top: 100%
+}
+
+.apk-list-1002 .img-ratio>.icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.apk-list-1002 .icon {
+    border: 1px solid #eff3f9;
+    border-radius: 15%
+}
+
+.apk-list-1002 .name {
+    margin-top: 4px;
+    line-height: 20px;
+    color: #5e5e5e;
+    height: 40px
+}
+
+.apk-list-1002 .score {
+    margin-top: 4px;
+    color: #fa8b16;
+    font-size: 12px;
+    line-height: 10px;
+    height: 10px
+}
+
+.apk-list-1002 .score::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(/static/images/icon-apk-list-star.svg);
+    margin-right: 4px
+}
+
+.apk-list-1002 a {
+    width: calc((100% - 144px)/ 8);
+    margin-left: 12px;
+    vertical-align: bottom;
+    min-width: auto
+}
+
+.apk-list-1003 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 16px
+}
+
+.apk-list-1003 a {
+    width: 260px;
+    margin-left: 4px;
+    margin-left: var(--app-horizontal-spacing)
+}
+
+.apk-list-1003 a:first-child {
+    margin-left: 16px
+}
+
+.apk-list-1003 a:last-child {
+    margin-right: 16px
+}
+
+.apk-list-1003 .banner {
+    border-radius: 8px
+}
+
+.apk-list-1003 .info {
+    display: flex;
+    align-items: center;
+    margin-top: 4px
+}
+
+.apk-list-1003 .info .text {
+    flex-grow: 1;
+    width: 0;
+    margin: 0 8px
+}
+
+.apk-list-1003 .icon {
+    border: 1px solid #eff3f9;
+    border-radius: 15%
+}
+
+.apk-list-1003 .name {
+    font-weight: 500;
+    line-height: 20px;
+    color: #4b4b4b
+}
+
+.apk-list-1003 a:hover .name {
+    color: #00a6ed
+}
+
+.apk-list-1003 .desc {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8b8b8b
+}
+
+.apk-list-1003 .score {
+    color: #fa8b16;
+    font-size: 12px;
+    line-height: 16px
+}
+
+.apk-list-1003 .score::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(/static/images/icon-apk-list-star.svg);
+    margin-inline-end: 4px
+}
+
+.apk-list-1003 .score.n-stars {
+    color: transparent
+}
+
+.apk-list-1003 .score.n-stars::before {
+    background: url(/static/images/icon-apk-list-star-grey.svg)
+}
+
+.apk-list-1003 {
+    padding-bottom: 4px;
+    flex-direction: column
+}
+
+.apk-list-1003 a {
+    margin-bottom: 12px;
+    position: relative;
+    height: 60px;
+    width: auto;
+    margin-right: 16px
+}
+
+.apk-list-1003 .info {
+    align-items: flex-start;
+    margin-top: 0
+}
+
+.apk-list-1003 .banner {
+    display: none
+}
+
+.apk-list-1003 .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #fff
+}
+
+.apk-list-1003 .text {
+    padding: 8px 0;
+    margin: 0 12px
+}
+
+.apk-list-1003 .desc {
+    position: absolute;
+    left: 72px;
+    right: 0
+}
+
+.apk-list-1003 .score {
+    margin-top: 10px
+}
+
+.apk-list-1003 a:first-child {
+    height: 180px
+}
+
+.apk-list-1003 a:first-child .banner,
+.apk-list-1003 a:first-child::before {
+    display: block;
+    position: relative;
+    left: -16px;
+    width: 316px;
+    height: 149px;
+    top: -149px;
+    border-radius: 0
+}
+
+.apk-list-1003 a:first-child::before {
+    content: "";
+    z-index: 1;
+    top: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 66.67%, rgba(0, 0, 0, .5) 100%)
+}
+
+.apk-list-1003 a:first-child .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.apk-list-1003 a:first-child .name {
+    color: #fff
+}
+
+.apk-list-1003 a:first-child .name:hover {
+    color: #00a6ed
+}
+
+.apk-list-1003 a:first-child .score {
+    color: #fff
+}
+
+.apk-list-1003 a:first-child .score::before {
+    filter: brightness(0) invert(1)
+}
+
+.apk-list-1003 a:first-child .score.n-stars {
+    color: transparent
+}
+
+.apk-list-1004 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    flex-wrap: wrap
+}
+
+.apk-list-1004 a {
+    width: 28%;
+    width: calc((100% - 16px - 2 * var(--app-horizontal-spacing))/ 3);
+    height: 68px;
+    margin-left: 12px;
+    margin-left: var(--app-horizontal-spacing);
+    display: flex;
+    align-items: center
+}
+
+.apk-list-1004 a:nth-child(n+4) {
+    margin-top: 12px
+}
+
+.apk-list-1004 a:nth-child(3n+1) {
+    margin-left: 16px
+}
+
+.apk-list-1004 a {
+    height: 72px
+}
+
+.apk-list-1004 .icon {
+    border: 1px solid #eff3f9;
+    border-radius: 15%
+}
+
+.apk-list-1004 .icon {
+    width: 72px;
+    height: 72px
+}
+
+.apk-list-1004 .text {
+    width: 0;
+    flex-grow: 1;
+    margin: 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch
+}
+
+.apk-list-1004 .name {
+    line-height: 20px;
+    color: #5e5e5e
+}
+
+.apk-list-1004 .developer {
+    color: #8b8b8b;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.apk-list-1004 .count {
+    font-size: 12px;
+    color: #5e5e5e
+}
+
+.apk-list-1004 .button {
+    padding: 6px 8px;
+    background: #24cd77;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff
+}
+
+.apk-list-1004 .button {
+    display: none
+}
+
+.apk-list-1005 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    flex-wrap: wrap
+}
+
+.apk-list-1005 {
+    padding: 0 16px 2px 16px
+}
+
+.apk-list-1005 a {
+    width: 28%;
+    width: calc((100% - 16px - 2 * var(--app-horizontal-spacing))/ 3);
+    height: 68px;
+    margin-left: 12px;
+    margin-left: var(--app-horizontal-spacing);
+    display: flex;
+    align-items: center
+}
+
+.apk-list-1005 a:nth-child(n+4) {
+    margin-top: 12px
+}
+
+.apk-list-1005 a:nth-child(3n+1) {
+    margin-left: 16px
+}
+
+.apk-list-1005 a {
+    width: 100%;
+    height: 60px;
+    margin: 0 0 12px 0
+}
+
+.apk-list-1005 a:nth-child(n) {
+    margin: 0 0 12px 0
+}
+
+.apk-list-1005 .icon {
+    border: 1px solid #eff3f9;
+    border-radius: 15%
+}
+
+.apk-list-1005 .icon {
+    width: 60px;
+    height: 60px
+}
+
+.apk-list-1005 .text {
+    width: 0;
+    flex-grow: 1;
+    margin: 0 12px;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch
+}
+
+.apk-list-1005 .name {
+    line-height: 20px;
+    color: #5e5e5e;
+    font-weight: 500
+}
+
+.apk-list-1005 .developer {
+    color: #8b8b8b;
+    font-size: 12px;
+    line-height: 20px
+}
+
+.apk-list-1005 .price {
+    text-align: end;
+    line-height: 20px
+}
+
+.apk-list-1005 .price .new {
+    font-weight: 500;
+    color: #5e5e5e
+}
+
+.apk-list-1005 .price .old {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #8b8b8b;
+    text-decoration-line: line-through
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 8px
+}
+
+.article-list .article {
+    width: 45%;
+    width: calc(50% - 24px);
+    padding: 8px 0;
+    margin-left: 16px;
+    display: flex;
+    align-items: stretch
+}
+
+.article-list .article:nth-child(-n+2) {
+    padding-top: 0
+}
+
+.article-list .article:nth-child(n+3) {
+    border-top: 1px solid #f0f2f4
+}
+
+.article-list .article-banner {
+    border-radius: 4px;
+    height: 80px;
+    width: 142px;
+    object-fit: cover
+}
+
+.article-list .article-banner {
+    margin-right: 12px
+}
+
+.article-list .text {
+    flex-grow: 1;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.article-list .article-title {
+    line-height: 20px;
+    color: #5e5e5e;
+    font-weight: 500
+}
+
+.article-list .updated {
+    font-size: 12px;
+    line-height: 16px;
+    color: #a6a6a6;
+    margin-top: 8px
+}
+
+.apk-list-1008 {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 16px
+}
+
+.apk-list-1008 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 16px 16px 16px
+}
+
+.apk-list-1008 a {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 12px;
+    margin-left: var(--app-horizontal-spacing);
+    min-width: 76px;
+    width: 12.5%;
+    width: calc((100% - 32px - 7 * var(--app-horizontal-spacing))/ 8);
+    overflow: hidden
+}
+
+.apk-list-1008 a:first-child {
+    margin-left: 16px
+}
+
+.apk-list-1008 a:last-child {
+    margin-right: 16px
+}
+
+.apk-list-1008 a {
+    width: 30%;
+    width: calc((100% - 32px)/ 3);
+    height: 72px;
+    display: flex;
+    margin: 0
+}
+
+.apk-list-1008 a:nth-child(n) {
+    margin: 0
+}
+
+.apk-list-1008 a:nth-child(n+4) {
+    margin-top: 12px
+}
+
+.apk-list-1008 .img-ratio {
+    position: relative;
+    padding-top: 100%
+}
+
+.apk-list-1008 .img-ratio>.icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.apk-list-1008 .img-ratio {
+    width: 72px;
+    padding-top: 72px
+}
+
+.apk-list-1008 .icon {
+    border: 1px solid #eff3f9;
+    border-radius: 15%
+}
+
+.apk-list-1008 .text {
+    flex: 1;
+    margin-left: 12px;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 0
+}
+
+.apk-list-1008 .name {
+    margin-top: 4px;
+    line-height: 20px;
+    color: #5e5e5e;
+    height: 40px;
+    white-space: initial
+}
+
+.apk-list-1008 .name {
+    margin-top: 0;
+    display: block;
+    white-space: nowrap;
+    height: 20px
+}
+
+.apk-list-1008 .category,
+.apk-list-1008 .install-total {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8b8b8b
+}
+
+.apk:hover .name {
+    color: #00a6ed
+}
+
+.footer_container .info .item ul li a:hover {
+    color: #24cd77
+}

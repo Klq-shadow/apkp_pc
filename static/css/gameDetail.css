@@ -1,0 +1,1146 @@
+.show-more span,
+a {
+    text-decoration: none
+}
+
+.detail_container .detail_top .details_safe a,
+.details .screen-wrap .screenbox .det-pic-control.go,
+.show-more {
+    display: block
+}
+
+.side .discover .apk-list-with .scroll-box .apk .content .stars-box {
+    margin-top: 8px
+}
+
+.above-info .description .additional .additional-content .additional-item .additional-info a,
+.list-wrap .scroll-box .apk:hover .content .title,
+.show-more.whats-new-more,
+.side .discover .apk-list-with .scroll-box .apk:hover .content .title,
+.version-list .version-item:hover .version-info .apk-name,
+a {
+    color: #00a6ed
+}
+
+.detail_container .downalod_box .da:last-child {
+    margin-bottom: 0
+}
+
+body,
+button,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    color: #5e5e5e;
+    line-height: 18px;
+    z-index: -10000;
+    background: #f2f5f9;
+    min-width: auto;
+    padding-top: 70px
+}
+
+html {
+    font-size: 62.5%
+}
+
+a:hover {
+    color: #00b6ff
+}
+
+li {
+    list-style: none
+}
+
+button {
+    outline: 0
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    color: #ccc
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden
+}
+
+.follow-warp {
+    align-items: center;
+    min-width: 270px
+}
+
+:root {
+    --app-horizontal-spacing: 8px;
+    --model-spacing: 4px;
+    --header-footer-spacing: 4px;
+    --app-horizontal-spacing: 16px;
+    --model-spacing: 8px;
+    --header-footer-spacing: 16px
+}
+
+.a-divider {
+    width: 100%;
+    height: 8px
+}
+
+.detail_container {
+    margin: 0 auto
+}
+
+.detail_container .detail_top,
+.details .screen-wrap .screenbox {
+    position: relative
+}
+
+.detail_container .detail_top .details_safe {
+    position: absolute;
+    right: 0
+}
+
+.detail_container .detail_top .details_safe::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #2e9cf2;
+    border-left: 40px solid transparent;
+    z-index: 2
+}
+
+.detail_container .detail_top .details_safe svg {
+    position: relative;
+    margin: 2px 3px;
+    z-index: 2
+}
+
+.detail_container .detail_top .detail_banner {
+    background-color: #fff
+}
+
+.detail_container .detail_top .detail_banner p {
+    font-size: 14px;
+    display: inline
+}
+
+.detail_container .detail_top .detail_banner p .icon::before {
+    content: " ";
+    display: inline-block;
+    background: url(/static/images/details_new_icon.svg) no-repeat;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 1px
+}
+
+.detail_container .detail_top .detail_banner p .details_stars {
+    color: #fa8b16
+}
+
+.detail_container .detail_top .detail_banner p .details_score::before {
+    background-position: 0 -12px
+}
+
+.detail_container .detail_top .detail_banner p.details_sdk span:first-child {
+    color: #24cd77
+}
+
+.detail_container .detail_banner,
+.detail_container .detail_top .detail_banner p .developer a,
+.detail_container .detail_top .detail_banner p>a {
+    color: #5e5e5e
+}
+
+.detail_container .detail_top .detail_banner p>a.details_score {
+    margin: 0 10px
+}
+
+.detail_container .detail_top .detail_banner .apk_info {
+    box-sizing: border-box;
+    min-height: 80px;
+    flex: 1;
+    width: 98%
+}
+
+.detail_container .detail_top .detail_banner .apk_info img {
+    border-radius: 15%;
+    border: 1px solid #eff3f9;
+    background-color: #fff;
+    box-sizing: border-box
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info {
+    padding: 0 16px;
+    min-height: 80px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    max-width: 490px
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info .title_link {
+    display: inline;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 30px
+}
+
+.detail_container .detail_top .detail_banner .apk_info .info .title_link h1 {
+    display: inline;
+    font-weight: 500;
+    line-height: 26px;
+    color: #3c4043;
+    height: 24px;
+    font-size: 20px
+}
+
+.detail_container .detail_top .detail_banner--exp {
+    display: flex;
+    flex-direction: column
+}
+
+.detail_container .detail_top .detail_banner--exp .downalod_box {
+    order: 3;
+    order: initial
+}
+
+.detail_container .detail_top .bread_crumbs {
+    height: 28px;
+    align-items: center;
+    display: flex;
+    padding: 0 16px
+}
+
+.detail_container .downalod_box,
+.detail_container .downalod_box .download-btn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.detail_container .downalod_box a:not(.huawei) span {
+    position: relative;
+    padding-left: 32px
+}
+
+.detail_container .downalod_box a:not(.huawei) span i {
+    background: url(/static/images/details_new_icon.svg) 0 -52px no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 1px
+}
+
+.detail_container .downalod_box .da {
+    display: inline-block;
+    background-color: #24cd77;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 4px;
+    text-align: center
+}
+
+.detail_container .downalod_box .da:hover,
+.version-list .version-item .download:hover {
+    background: #24dc83
+}
+
+.detail_container .bread_crumbs {
+    font-size: 12px;
+    line-height: 16px;
+    color: #5e5e5e
+}
+
+.detail_container .bread_crumbs>a,
+.detail_container .bread_crumbs>span.category {
+    padding-right: 16px;
+    color: #5e5e5e;
+    position: relative
+}
+
+.detail_container .bread_crumbs>a::before,
+.detail_container .bread_crumbs>span.category::before {
+    content: " ";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    border: 1px solid;
+    border-color: #c5c5c5 #c5c5c5 transparent transparent;
+    transform: rotateZ(45deg)
+}
+
+.detail_container .detail_banner .apk_info {
+    display: flex
+}
+
+.apk-list-with,
+.detail_container .available-box {
+    margin-bottom: var(--model-spacing);
+    background-color: #fff
+}
+
+.detail_container .available-box .list {
+    padding: 0 16px 12px
+}
+
+.detail_container .available-box a {
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid #00a6ed;
+    color: #00a6ed;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.detail_container .available-box a.iphone::before,
+.detail_container .available-box a.windows::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    vertical-align: bottom
+}
+
+.detail_container .available-box a.windows::before {
+    background: url(/static/images/icon-windows.svg)
+}
+
+.detail_container .available-box a.iphone::before {
+    background: url(/static/images/icon-iphone.svg) center/20px no-repeat
+}
+
+.default_ellipsis_1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.show-more {
+    position: relative
+}
+
+.show-more .show-more-end {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(100%, #fff));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #fff);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff);
+    top: -30px;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.show-more span {
+    cursor: pointer;
+    line-height: 30px;
+    padding-right: 22px;
+    height: 30px;
+    display: inline-block;
+    color: #00a6ed;
+    position: relative
+}
+
+.above-info,
+.list-wrap {
+    margin-bottom: var(--model-spacing)
+}
+
+.above-info .card {
+    padding: 12px 16px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative
+}
+
+.above-info .description .content .paragraph-bottom,
+.above-info .description-short,
+.side .discover .apk-list-with .scroll-box .apk:last-child {
+    margin-bottom: 16px
+}
+
+.above-info .tag-box {
+    margin-top: 12px;
+    max-height: 60px;
+    overflow: hidden
+}
+
+.above-info .tag-box .tag-item a {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 26px;
+    margin-bottom: 4px;
+    padding: 0 8px;
+    color: #8b8b8b;
+    border: 1px solid #f0f2f4;
+    border-radius: 4px
+}
+
+.above-info .description {
+    padding-bottom: 16px;
+    position: relative
+}
+
+.above-info .description .description-title-box {
+    display: flex;
+    justify-content: space-between
+}
+
+.above-info .description h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3c4043;
+    margin-right: 8px
+}
+
+.above-info .description h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c4043
+}
+
+.above-info .description .content {
+    margin-top: 12px;
+    position: relative
+}
+
+.above-info .description .content .translate-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5e5e5e
+}
+
+.above-info .description .content .loading-box {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    top: 50px;
+    left: 0;
+    z-index: 11
+}
+
+.above-info .description .additional {
+    color: #777;
+    margin-top: 20px;
+    background-color: #fff;
+    position: relative
+}
+
+.above-info .description .additional .additional-content {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: #e7e7e7
+}
+
+.list-wrap .scroll-box .apk .content .title,
+.side .discover .apk-list-with .scroll-box .apk .content .title,
+.version-list .version-item .version-info .apk-name,
+.version-list .version-item .version-info p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis
+}
+
+.above-info .description .additional .additional-content .additional-item {
+    width: 50%;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #e7e7e7;
+    box-sizing: border-box;
+    height: 56px;
+    padding: 8px 12px;
+    line-height: 22px
+}
+
+.above-info .description .additional .additional-content .additional-item .title {
+    color: #5e5e5e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: -1px
+}
+
+.above-info .description .additional .additional-content .additional-item .additional-info {
+    font-size: 12px;
+    color: #8b8b8b;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.above-info .whats-new-info {
+    margin-top: 24px;
+    font-size: 13px
+}
+
+.above-info .whats-new-info .date {
+    margin: 4px 0
+}
+
+.limit {
+    max-height: 420px;
+    overflow: hidden
+}
+
+.old-versions {
+    background-color: #fff;
+    margin-bottom: var(--model-spacing)
+}
+
+.version-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 0 16px
+}
+
+.version-list .version-item {
+    box-sizing: border-box;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #f0f2f4;
+    border-radius: 4px;
+    min-height: 54px
+}
+
+.list-wrap .scroll-box,
+.side .discover .apk-list-with .scroll-box {
+    padding: 0 16px 12px;
+    overflow-x: auto;
+    font-size: 0
+}
+
+.version-list .version-item:first-child {
+    padding-top: 0
+}
+
+.version-list .version-item .version-info {
+    overflow: hidden
+}
+
+.version-list .version-item .version-info .apk-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4b4b4b;
+    margin-right: 20px
+}
+
+.version-list .version-item .version-info .other-infos {
+    direction: initial;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8b8b8b;
+    margin-top: 4px
+}
+
+.version-list .version-item .version-info .other-infos .update {
+    margin-left: 12px
+}
+
+.version-list .version-item .download {
+    display: flex;
+    align-items: center;
+    background: #24cd77;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    flex-shrink: 0;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    height: 28px
+}
+
+.version-list .version-item .download svg {
+    margin-right: 4px
+}
+
+.version-list .more-version {
+    height: 40px;
+    text-align: center;
+    color: #24cd77;
+    border: 1px solid #24cd77;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 40px
+}
+
+.version-list .more-version:hover {
+    color: #fff;
+    background-color: #24cd77
+}
+
+.version-list:hover {
+    text-decoration: revert
+}
+
+a.title-bar:hover {
+    color: inherit
+}
+
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 26px 10px 16px;
+    gap: 4px;
+    color: #3c4043
+}
+
+.title-bar h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.title-bar::after {
+    content: " ";
+    display: inline-block;
+    align-self: center;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #868686;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    flex-shrink: 0;
+    right: 16px
+}
+
+.title-bar.no-more::after {
+    content: none
+}
+
+.show-more span::after {
+    content: " ";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #00a6ed;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    right: 3px;
+    top: 10px
+}
+
+.show-more span.active::after {
+    transform: rotate(-135deg);
+    top: 13px
+}
+
+.stars-box::before {
+    content: " ";
+    background: url(/static/images/stars.svg) left center/12px no-repeat;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    top: 1px
+}
+
+.star {
+    font-size: 12px;
+    line-height: 18px;
+    color: #fa8b16
+}
+
+.list-wrap .scroll-box {
+    white-space: nowrap;
+    display: flex
+}
+
+.list-wrap .scroll-box::-webkit-scrollbar {
+    display: none
+}
+
+.list-wrap .scroll-box .apk {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 12.5%;
+    width: calc((100% - 7 * var(--app-horizontal-spacing))/ 8);
+    white-space: initial;
+    font-size: initial
+}
+
+.list-wrap .scroll-box .apk img {
+    aspect-ratio: 1/1;
+    outline: #eff3f9 solid 1px;
+    border-radius: 15%;
+    box-sizing: border-box;
+    margin-top: 1px
+}
+
+.list-wrap .scroll-box .apk .content {
+    margin-top: 4px
+}
+
+.list-wrap .scroll-box .apk .content .title {
+    word-break: break-word;
+    height: 44px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4b4b4b
+}
+
+.list-wrap .scroll-box .apk+.apk {
+    margin-left: var(--app-horizontal-spacing)
+}
+
+.side {
+    padding-top: 0;
+    max-width: 980px;
+    margin: 0 auto
+}
+
+.side .discover .apk-list-with .scroll-box::-webkit-scrollbar {
+    display: none
+}
+
+.side .discover .apk-list-with .scroll-box .apk {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    white-space: initial;
+    font-size: initial;
+    width: calc((100% - 7 * var(--app-horizontal-spacing))/ 8)
+}
+
+.side .discover .apk-list-with .scroll-box .apk img {
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    border: 1px solid #eff3f9
+}
+
+.side .discover .apk-list-with .scroll-box .apk .content .title {
+    word-break: break-word;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4b4b4b;
+    -webkit-line-clamp: 1;
+    height: auto;
+    font-size: 14px
+}
+
+.side .discover .apk-list-with .scroll-box .apk+.apk {
+    margin-left: var(--app-horizontal-spacing);
+    margin-left: 0
+}
+
+.details .screen-wrap {
+    background-color: #fff;
+    padding-bottom: 12px;
+    margin-bottom: var(--model-spacing)
+}
+
+.details .screen-wrap .screenbox .det-pic-control {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .12);
+    z-index: 1;
+    border: 0;
+    outline: 0;
+    cursor: pointer
+}
+
+.details .screen-wrap .screenbox #next,
+.details .screen-wrap .screenbox #prev {
+    border-radius: 50%
+}
+
+.details .screen-wrap .screenbox #next {
+    right: 16px
+}
+
+.details .screen-wrap .screenbox #prev {
+    left: 16px
+}
+
+.details .screen-wrap .screenbox #prev::before {
+    transform: rotate(-45deg);
+    right: 10px;
+    top: 11px
+}
+
+.details .screen-wrap .screen {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 180px
+}
+
+.details .screen-wrap .screen::-webkit-scrollbar {
+    display: none
+}
+
+.details .screen-wrap .screen .b {
+    height: 180px;
+    z-index: 1;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    position: absolute;
+    font-size: 0;
+    display: flex
+}
+
+.details .screen-wrap .screen .screen-pswp img {
+    background-image: url(/static/images/lazy_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: auto
+}
+
+.screenbox #next::before,
+.screenbox #prev::before {
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    align-self: center;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #868686;
+    border-right: 0;
+    border-bottom: 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    flex-shrink: 0;
+    right: 13px;
+    top: 11px
+}
+
+.details-tube {
+    position: relative;
+    width: 320px;
+    background-size: cover;
+    background-position: center
+}
+
+.details-tube .tube-lazy {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center
+}
+
+.details-tube .play {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    display: block;
+    position: absolute
+}
+
+.details .screen .details-tube,
+.details .screen a.screen-pswp {
+    overflow: hidden;
+    height: 180px;
+    margin-right: 8px;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+.detail_container .details-tube .play {
+    background-image: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%
+}
+
+.detail_container .details-tube .play i {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.follow-warp {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.follow-warp .custom-details-share-box {
+    display: flex;
+    gap: 4px
+}
+
+.follow-warp .custom-details-share-box svg {
+    fill: #6e6d79;
+    width: initial;
+    height: initial
+}
+
+.follow-warp .custom-details-share-box button {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 0
+}
+
+.follow-warp .custom-details-share-box button.share-more svg {
+    stroke: #6e6d79;
+    fill: transparent
+}
+
+.share-counter {
+    line-height: 32px;
+    font-size: 11.4px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: auto;
+    margin: 0 5px;
+    padding: 0 6px;
+    left: -1px;
+    background: #ebebeb;
+    color: #32363b;
+}
+
+.follow-warp .custom-details-share-box .share-counter {
+    color: #6E6D79;
+    font-weight: 500;
+    margin: 0;
+    cursor: initial;
+    font-size: 12px;
+    background-color: #F2F5F9;
+    border-radius: 4px
+}
+
+.detail_container {
+    padding-top: var(--header-footer-spacing);
+    width: 1200px;
+    position: relative;
+    padding-bottom: calc(var(--header-footer-spacing) - var(--model-spacing))
+}
+
+.detail_container .detail_top .details_safe {
+    top: 0
+}
+
+.detail_container .detail_top .detail_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px
+}
+
+.detail_container .detail_top .detail_banner p {
+    line-height: 28px
+}
+
+.detail_container .detail_top .detail_banner .apk_info {
+    padding: 0;
+    min-width: 0;
+    flex-basis: 1%
+}
+
+.detail_container .detail_top .detail_banner .apk_info img {
+    width: 106px;
+    height: 106px
+}
+
+.detail_container .detail_top .detail_banner--exp {
+    flex-wrap: wrap;
+    flex-direction: inherit
+}
+
+.detail_container .detail_top .bread_crumbs {
+    background-color: #fff;
+    padding-top: 8px
+}
+
+.detail_container .downalod_box {
+    padding: 0
+}
+
+.detail_container .downalod_box .da {
+    padding: 10px 24px;
+    height: 18px
+}
+
+.container {
+    width: 868px;
+    margin-right: 332px;
+    display: block
+}
+
+.version-list .more-version {
+    width: 320px;
+    margin: 12px auto
+}
+
+.title-bar {
+    justify-content: initial
+}
+
+.title-bar::after {
+    position: initial;
+    margin: 0 8px
+}
+
+.side .discover .apk-list-with .scroll-box .apk .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+    padding: 0 12px
+}
+
+.list-wrap .scroll-box .apk img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1
+}
+
+.side {
+    width: 316px;
+    min-height: 500px;
+    margin-left: 16px;
+    position: absolute;
+    top: var(--header-footer-spacing);
+    right: 0
+}
+
+.side .discover .apk-list-with .scroll-box {
+    white-space: initial;
+    padding-bottom: 0
+}
+
+.side .discover .apk-list-with .scroll-box .apk {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.side .discover .apk-list-with .scroll-box .apk img {
+    width: 56px;
+    height: 56px;
+    min-width: auto;
+    border-radius: 9.6px
+}
+
+.side .discover .apk-list-with {
+    margin-bottom: 12px
+}
+
+.details .screen-wrap .screen,
+.details .screen-wrap .screenbox {
+    padding: 0 16px
+}
+
+.details .screen-wrap .screen .screen-pswp img {
+    height: 180px
+}
+
+.details .screen .details-tube:last-child,
+.details .screen a.screen-pswp:last-child {
+    margin-right: 0
+}
+
+.follow-warp.details {
+    margin-bottom: 0;
+    margin-top: 8px
+}
+
+.details .screen-wrap .screenbox #next,
+.details .screen-wrap .screenbox #prev {
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff
+}
