@@ -7,7 +7,7 @@ var $header = `<header id="header" data-search-sug-download="1">
     </div>
     <div class="nav_new" id="nav_new">
       <div class="item searching-hide">
-        <a href="/index.html" class="dt_nav_button" title="Home">
+        <a href="./index.html" class="dt_nav_button" title="Home">
           <span class="dt_menu_text">Home</span>
         </a>
       </div>
@@ -17,22 +17,22 @@ var $header = `<header id="header" data-search-sug-download="1">
         </a>
       </div>
       <div class="item searching-hide">
-        <a title="hot android app apk" class="dt_nav_button nav-a" href="/game.html">
+        <a title="hot android app apk" class="dt_nav_button nav-a" href="./game.html">
           <span class="dt_menu_text">Apps</span>
         </a>
       </div>
       <div class="item many searching-hide" id="article_item">
-        <a title="hot android app apk" class="dt_nav_button nav-a" href="/news.html">
+        <a title="hot android app apk" class="dt_nav_button nav-a" href="./news.html">
           <span class="dt_menu_text">News</span>
         </a>
       </div>
       <div class="item many searching-hide">
-        <a title="hot android app apk" class="dt_nav_button nav-a" href="/topics.html">
+        <a title="hot android app apk" class="dt_nav_button nav-a" href="./topics.html">
           <span class="dt_menu_text">Topics</span>
         </a>
       </div>
       <div class="item search">
-        <form class="formsearch searching-show" method="get" action="/search.html">
+        <form class="formsearch searching-show" method="get" action="./search.html">
           <div class="search-input">
             <span class="twitter-typeahead" style="position: relative; display: inline-block">
               <input id="form_query" class="query autocomplete main-autocomplete tt-input" autocomplete="off" title="请输入应用名或包名" name="" type="text" size="40" placeholder="APKPure" style="position: relative; vertical-align: top; background-color: transparent" />
