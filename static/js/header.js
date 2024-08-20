@@ -12,7 +12,7 @@ var $header = `<header id="header" data-search-sug-download="1">
         </a>
       </div>
       <div class="item searching-hide">
-        <a title="hot android game apk" class="dt_nav_button nav-g" href="/game.html">
+        <a title="hot android game apk" class="dt_nav_button nav-g" href="./game.html">
           <span class="dt_menu_text">Games</span>
         </a>
       </div>
